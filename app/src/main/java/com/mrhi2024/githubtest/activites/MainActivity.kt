@@ -1,4 +1,4 @@
-package com.mrhi2024.githubtest
+package com.mrhi2024.githubtest.activites
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,5 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        var a=10
+
     }
 }
